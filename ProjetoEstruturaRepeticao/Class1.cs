@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -86,26 +88,29 @@ namespace ProjetoEstruturaRepeticao
         //Preecher Vetor
         public void VetorPreencher()
         {
-            for (i = 0; i < 12; i++)
+            for (i = 0; i < 3; i++)
             {
-                Console.WriteLine(i  + "ª Posição do Vetor: ");
+                Console.Write($"{i + 1}ª Vetor: ");
                 vetor[i] = Convert.ToInt32(Console.ReadLine());
-                int v = Convert.ToInt32(Console.ReadLine());
-                vetor[i] = v;
 
             }//Fim do For
-
         }//Fim Metodo
 
-
-        public void MostrarVetorXY(int Y, int X)
+       
+        public void CalcularMedia()
         {
-            Console.WriteLine("Vetores escolhidos: ");
-            for (i = Y; i >= X;)
-            {
-                Console.WriteLine("Os Vetores escolhidos são: " + (i = Y, i >= X));
-            }//Fim For
-        }//Fim Método
+            int soma = 0;
+            double media;
 
+            for (i = 0; i < 3; i++)
+            {
+                soma += vetor[i];
+            }
+            media = (double)soma / 3;
+            Console.WriteLine($"A Média é: {media}");
+            
+           
+        }//Fim Método
+        
     }//Fim da classe
 }

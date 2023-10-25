@@ -6,3 +6,10 @@ C:\Users\julia.fiorentino\source\repos\ProjetoEstruturaRepeticao\ProjetoEstrutur
 C:\Users\julia.fiorentino\source\repos\ProjetoEstruturaRepeticao\ProjetoEstruturaRepeticao\obj\Debug\ProjetoEstruturaRepeticao.csproj.CoreCompileInputs.cache
 C:\Users\julia.fiorentino\source\repos\ProjetoEstruturaRepeticao\ProjetoEstruturaRepeticao\obj\Debug\ProjetoEstruturaRepeticao.exe
 C:\Users\julia.fiorentino\source\repos\ProjetoEstruturaRepeticao\ProjetoEstruturaRepeticao\obj\Debug\ProjetoEstruturaRepeticao.pdb
+C:\Users\Artur Fiorentino\OneDrive\Área de Trabalho\projetoVetor\ProjetoEstruturaRepeticao\bin\Debug\ProjetoEstruturaRepeticao.exe.config
+C:\Users\Artur Fiorentino\OneDrive\Área de Trabalho\projetoVetor\ProjetoEstruturaRepeticao\bin\Debug\ProjetoEstruturaRepeticao.exe
+C:\Users\Artur Fiorentino\OneDrive\Área de Trabalho\projetoVetor\ProjetoEstruturaRepeticao\bin\Debug\ProjetoEstruturaRepeticao.pdb
+C:\Users\Artur Fiorentino\OneDrive\Área de Trabalho\projetoVetor\ProjetoEstruturaRepeticao\obj\Debug\ProjetoEstruturaRepeticao.csproj.AssemblyReference.cache
+C:\Users\Artur Fiorentino\OneDrive\Área de Trabalho\projetoVetor\ProjetoEstruturaRepeticao\obj\Debug\ProjetoEstruturaRepeticao.csproj.CoreCompileInputs.cache
+C:\Users\Artur Fiorentino\OneDrive\Área de Trabalho\projetoVetor\ProjetoEstruturaRepeticao\obj\Debug\ProjetoEstruturaRepeticao.exe
+C:\Users\Artur Fiorentino\OneDrive\Área de Trabalho\projetoVetor\ProjetoEstruturaRepeticao\obj\Debug\ProjetoEstruturaRepeticao.pdb

@@ -56,21 +56,8 @@ namespace ProjetoEstruturaRepeticao
                         break;
 
                     case 3:
-                        int Y;
-                        int X;
-                    
                         this.modelo.VetorPreencher();
-
-                        //Recolher Dados
-                        do
-                        {
-                            Console.WriteLine("Escolha uma opção: ");
-                            Y = Convert.ToInt32(Console.ReadLine());
-                            if ((Y < 0 || Y < 12))
-                            {
-                                Console.WriteLine("Escolha uma Opção entre 1 e 10!");
-                            }//Fim Validação
-                        } while ((Y < 0 || Y < 12));
+                        this.modelo.CalcularMedia();    
 
                         break;
 
