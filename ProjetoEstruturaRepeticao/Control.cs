@@ -30,7 +30,8 @@ namespace ProjetoEstruturaRepeticao
                               "0. Sair\n" +
                                "1. Média de notas 10 alunos\n" +
                                 "2. Vetor Inverso\n" +
-                                 "3. Mostrar Vetor\n");
+                                 "3. Mostrar Vetor\n" +
+                                 "4. Mostrar Números Pares");
             ConsultarOpcao = Convert.ToInt32(Console.ReadLine());
         }//Fim menu
 
@@ -60,6 +61,13 @@ namespace ProjetoEstruturaRepeticao
                         this.modelo.CalcularMedia();    
 
                         break;
+
+
+                    case 4:
+                        this.modelo.exercicio4();
+                        
+                    break;
+
 
                     default:
                         Console.WriteLine("Erro, escolha uma das opção valida!");

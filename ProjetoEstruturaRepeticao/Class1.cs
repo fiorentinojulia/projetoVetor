@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using System.Reflection;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -15,15 +16,17 @@ namespace ProjetoEstruturaRepeticao
         public int[] vetor;
         private double soma;
 
-        
-        
+
+
         public Model()
         {
             notas = new double[10];
             vetor = new int[5];// Instanciar = Existir
             vetor = new int[12];
+            vetor = new int[15];
             i = 0;
             ConsultarSoma = 0;
+            
 
         }//Fim do Construtor
 
@@ -51,7 +54,7 @@ namespace ProjetoEstruturaRepeticao
 
 
                 } while ((notas[i] < 0) || (notas[i] > 10));
-                  ConsultarSoma = ConsultarSoma + notas[i];
+                ConsultarSoma = ConsultarSoma + notas[i];
                 //ou ConsultarSoma += notas [i];
 
             }//Fim do for
@@ -64,19 +67,19 @@ namespace ProjetoEstruturaRepeticao
         //Ler um vetor de 5 posições e mostrar ela em oredem inversa
         public void PreencherVetor()
         {
-            for (i=0; i < 5; i ++)
+            for (i = 0; i < 5; i++)
             {
-                Console.WriteLine((i+1)+ "ª Posição: ");
+                Console.WriteLine((i + 1) + "ª Posição: ");
                 vetor[i] = Convert.ToInt32(Console.ReadLine());//Preencher o vetor
 
             }//Fim do For 
 
         }//Fim Método
 
-        public void MostrarVetor ()
+        public void MostrarVetor()
         {
             Console.WriteLine("Ordem Inversa: ");
-            for (i=4; i >= 0; i --)
+            for (i = 4; i >= 0; i--)
             {
                 Console.WriteLine(i + 1 + "ª Posição:" + vetor[i]);
             }//Fim For
@@ -96,7 +99,7 @@ namespace ProjetoEstruturaRepeticao
             }//Fim do For
         }//Fim Metodo
 
-       
+
         public void CalcularMedia()
         {
             int soma = 0;
@@ -108,9 +111,58 @@ namespace ProjetoEstruturaRepeticao
             }
             media = (double)soma / 3;
             Console.WriteLine($"A Média é: {media}");
-            
-           
+
+
+
         }//Fim Método
-        
-    }//Fim da classe
+         //Exercicio 4 ler os números pares
+
+        public void exercicio4()
+        {
+            int par;
+           
+
+            for (i = 0; i < 3; i++)
+            {
+                Console.Write(i + 1 + "° Vetor: ");
+                vetor[i] = Convert.ToInt32(Console.ReadLine());
+                par = vetor[i];
+
+                if (par % 2 == 0)
+                {
+
+                    
+
+                    Console.WriteLine("Os números pares são: " + par);
+                   
+                }
+
+                
+            }//Fim for
+
+
+        }//Fim método
+
+        //Exercicio 5 Mostrar o maior valor
+        public void Exercicio5()
+        {
+            for (i = 0; i < 3; i++)
+            {
+                Console.WriteLine($"{i + 1} º Vetor: ");
+                vetor[i] = Convert.ToInt32(Console.ReadLine());
+
+            }
+        }
+
+
+
+
+
+    }
+
+
+
+
+
+
 }

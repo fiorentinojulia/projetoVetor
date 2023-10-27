@@ -13,3 +13,11 @@ C:\Users\Artur Fiorentino\OneDrive\Área de Trabalho\projetoVetor\ProjetoEstrutu
 C:\Users\Artur Fiorentino\OneDrive\Área de Trabalho\projetoVetor\ProjetoEstruturaRepeticao\obj\Debug\ProjetoEstruturaRepeticao.csproj.CoreCompileInputs.cache
 C:\Users\Artur Fiorentino\OneDrive\Área de Trabalho\projetoVetor\ProjetoEstruturaRepeticao\obj\Debug\ProjetoEstruturaRepeticao.exe
 C:\Users\Artur Fiorentino\OneDrive\Área de Trabalho\projetoVetor\ProjetoEstruturaRepeticao\obj\Debug\ProjetoEstruturaRepeticao.pdb
+C:\Users\julia.fiorentino\Source\Repos\projetoVetor\ProjetoEstruturaRepeticao\bin\Debug\ProjetoEstruturaRepeticao.exe.config
+C:\Users\julia.fiorentino\Source\Repos\projetoVetor\ProjetoEstruturaRepeticao\bin\Debug\ProjetoEstruturaRepeticao.exe
+C:\Users\julia.fiorentino\Source\Repos\projetoVetor\ProjetoEstruturaRepeticao\bin\Debug\ProjetoEstruturaRepeticao.pdb
+C:\Users\julia.fiorentino\Source\Repos\projetoVetor\ProjetoEstruturaRepeticao\obj\Debug\ProjetoEstruturaRepeticao.csproj.AssemblyReference.cache
+C:\Users\julia.fiorentino\Source\Repos\projetoVetor\ProjetoEstruturaRepeticao\obj\Debug\ProjetoEstruturaRepeticao.csproj.SuggestedBindingRedirects.cache
+C:\Users\julia.fiorentino\Source\Repos\projetoVetor\ProjetoEstruturaRepeticao\obj\Debug\ProjetoEstruturaRepeticao.csproj.CoreCompileInputs.cache
+C:\Users\julia.fiorentino\Source\Repos\projetoVetor\ProjetoEstruturaRepeticao\obj\Debug\ProjetoEstruturaRepeticao.exe
+C:\Users\julia.fiorentino\Source\Repos\projetoVetor\ProjetoEstruturaRepeticao\obj\Debug\ProjetoEstruturaRepeticao.pdb
