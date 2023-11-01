@@ -31,8 +31,12 @@ namespace ProjetoEstruturaRepeticao
                                "1. Média de notas 10 alunos\n" +
                                 "2. Vetor Inverso\n" +
                                  "3. Mostrar Vetor\n" +
-                                 "4. Mostrar Números Pares");
-            ConsultarOpcao = Convert.ToInt32(Console.ReadLine());
+                                 "4. Mostrar Números Pares\n" +
+                                 "5. Mostrar o maior número\n" +
+                                  "6. Mostrar o menor número\n" +
+                                  "7. Encontrar o segundo maior Valor\n" +
+                                  "8. Somar os Valores");
+                  ConsultarOpcao = Convert.ToInt32(Console.ReadLine());
         }//Fim menu
 
         public void Operacao()
@@ -66,6 +70,18 @@ namespace ProjetoEstruturaRepeticao
                     case 4:
                         this.modelo.exercicio4();
                         
+                    break;
+
+                    case 5:
+                        this.modelo.Exercicio5();
+                    break;
+
+                    case 6:
+                        this.modelo.Exercicio6();
+                    break;
+
+                    case 7:
+                       this.modelo.Exercicio7();
                     break;
 
 

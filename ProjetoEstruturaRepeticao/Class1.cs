@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using System.Reflection;
+using System.Security.Cryptography;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
@@ -115,44 +116,141 @@ namespace ProjetoEstruturaRepeticao
 
 
         }//Fim Método
-         //Exercicio 4 ler os números pares
+         //Exercicio 4 Contar os números pares
 
         public void exercicio4()
         {
-            int par;
+            int par = 0;
            
 
             for (i = 0; i < 3; i++)
             {
                 Console.Write(i + 1 + "° Vetor: ");
                 vetor[i] = Convert.ToInt32(Console.ReadLine());
-                par = vetor[i];
-
-                if (par % 2 == 0)
-                {
-
-                    
-
-                    Console.WriteLine("Os números pares são: " + par);
-                   
-                }
-
                 
+                if (vetor[i] % 2 == 0)
+                {
+                    par++;
+                }                
             }//Fim for
-
+            Console.WriteLine("A quantidade de números pares são: " + par);
 
         }//Fim método
 
         //Exercicio 5 Mostrar o maior valor
         public void Exercicio5()
         {
-            for (i = 0; i < 3; i++)
-            {
-                Console.WriteLine($"{i + 1} º Vetor: ");
-                vetor[i] = Convert.ToInt32(Console.ReadLine());
+            int maior = 0;
 
-            }
-        }
+            int posicao = 0;
+
+            for (i = 0; i < 25; i ++ )
+            {
+                Console.WriteLine($"{i} º Vetor: ");
+                vetor[i] = Convert.ToInt32(Console.ReadLine());
+                
+                if ( i == 0 )   
+                {
+                    maior = vetor[i];      
+                }
+
+                if (vetor[i] > maior)
+                {
+                    maior = vetor[i];
+                    posicao = i;
+                }
+            }//Fim do For
+            Console.WriteLine($"O maior número é: {maior}  E a posição é: {posicao + 1}");
+
+           
+        }//Fim metodo
+
+        //Exercicio 6: Mostrar o menor valor
+        public void Exercicio6()
+        {
+            int menor = 0;
+            int posicao = 0;
+           
+            
+
+            for (i = 0; i < 30; i++)
+            {
+                Console.WriteLine($"{i} º Vetor: ");
+                vetor[i] = Convert.ToInt32(Console.ReadLine());
+                
+               
+                if(i == 0 )
+                {
+                 
+                    menor = vetor[i];
+
+                }
+
+                if (vetor[i] < menor)
+                {
+                    menor = vetor[i];
+                    posicao = i ;
+                }
+
+            }//Fim do For
+            Console.WriteLine($"O menor número é: {menor} E sua Posição é: {posicao}");
+        }// Fim método
+
+        //Exercicio 7: Encontrar o segundo maior valor!
+        public void Exercicio7()
+        {
+
+            int maior = 0;
+            int Smaior = 0;
+           
+
+            for (i=0; i < 3;  i++)
+            {
+                Console.WriteLine($"{i} °Vetor: ");
+                vetor[i] = Convert.ToInt32(Console.Read());
+                
+                    if (i == 0)
+                    {
+                        maior = vetor[i];
+
+                    }
+
+                    if (vetor[i] > maior) ;
+                    {
+                        maior = vetor[i];
+                    }
+
+
+                    if (Smaior == vetor[i])
+                    {
+                        Smaior = vetor[i];
+                    }
+
+                    if ((Smaior < maior || Smaior > vetor[i]))
+                    {
+                       Smaior = Smaior;
+                    }
+            }//Fim For
+            
+            Console.WriteLine($"O Segundo Número maior é: {Smaior} E o Primeiro é: {maior} ");
+        }//Fim método
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        //vetor[i] = Convert.ToInt32(Console.ReadLine());   maior = vetor[i]; i < 3; i --)||  i = 0; maior <- num1
+        // num1 > maior
+        // maior<- num1
 
 
 
